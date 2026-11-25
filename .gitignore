@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local application data and logs (may contain personal information)
+/data/database.json
+/data/database.json.tmp
+/logs/*.log
+!/logs/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
